@@ -7,6 +7,7 @@
     ":docker",
     ":enablePreCommit",
     ":semanticCommits",
+    "helpers:pinGitHubActionDigests"
   ],
   ignorePaths: [], // overwrites default to track also test paths
   platformAutomerge: false, // Automerge cannot be applied due to branch security settings. Explicit approval from a maintainer is required, so we do not use or configure automerge in our repositories.
