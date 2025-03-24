@@ -321,4 +321,5 @@ jobs:
 
             - name: 🔬🚨 Get failed Pods info
               if: failure()
+              # renovate: datasource=github-tags depName=camunda/camunda-platform-helm
               uses: camunda/camunda-platform-helm/./.github/actions/failed-pods-info@50b0d04068988813cebe3909a2211d8e063b6499 # camunda-platform-11.2.2
